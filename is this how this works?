@@ -1,0 +1,42 @@
+#include <iostream>
+
+using namespace std;
+
+int main()
+{
+    int x=4;
+    int y=2;
+     int a;
+   cin >> a;
+   cout << "Hello World!" << endl; 
+   cout << "It's party time!" << endl;
+   cout << "Fun Fact! x times y equals..." << endl;
+   cout << (x * y) << endl;
+   cout << "Cool, right?" << endl;
+   cout << "More fun facts!! Is 4 less than 2?" << endl;
+   if(x<y) {
+       cout << "Oh yeah it is!!" << endl;
+   }
+   else {
+       cout << "Nope!" << endl;
+   }
+   cout << "Hey this programming thing is pretty cool!" << endl;
+   cout << "Okay, let's try something more interesting..." << endl;
+   cout << "Type in a 1 digit number!" << endl;
+   cout << "I bet your number was..." << a << "!" << endl;
+   if(a==a) {
+       cout << "HA! I GOT IT, DIDN'T I?" << endl;
+   }
+   else {
+       cout << "Oh... Magic tricks are overrated anyway" << endl;
+   }
+   cout << "Hold up..." << endl;
+   cout << "That isn't your number??!" << endl;
+   cout << "Uh... Hello there little number!" << endl;
+   cout << "Where did you come from?" << endl;
+   cout << "I don't think the user typed you out..." << endl;
+   cout << "Hmmm...This is very odd" << endl;
+   cout << "Anyway, let us continue." << endl;
+   
+   return 0;
+}
